@@ -291,7 +291,7 @@ export default function DetailInbox(
                                             </div>
 
                                             <div key={index} className="flex flex-col mb-4 h-[100px]">
-                                                <p className={`text-sm font-semibold ${chat.idUser === item.member.length ? 'text-right pr-2' : 'text-left'} ${chat.idUser === 1 ? 'text-[#E5A443]' : chat.idUser === 2 ? 'text-[#7C8083]' :  chat.idUser === 3 ? 'text-[#43B78D]' : chat.idUser === 4 ? 'text-[#E9F3FF]' : 'text-[#9B51E0]'}`}>
+                                                <p className={`text-sm font-semibold ${chat.idUser === item.member.length ? 'text-right pr-2' : 'text-left'} ${chat.idUser === 1 ? 'text-[#E5A443]' : chat.idUser === 2 ? 'text-[#7C8083]' :  chat.idUser === 3 ? 'text-[#43B78D]' : chat.idUser === 4 ? 'text-[#2F80ED]' : 'text-[#9B51E0]'}`}>
                                                     {chat.name}
                                                 </p>
 
@@ -390,7 +390,7 @@ export default function DetailInbox(
                                         </div>
                                     ) : (
                                         <div key={index} className="flex flex-col mb-4 h-[110px]">
-                                                <p className={`text-sm  font-semibold mt-12 ${chat.idUser === item.member.length ? 'text-right pr-2' : 'text-left'} ${chat.idUser === 1 ? 'text-[#E5A443]' : chat.idUser === 2 ? 'text-[#7C8083]' :  chat.idUser === 3 ? 'text-[#43B78D]' : chat.idUser === 4 ? 'text-[#E9F3FF]' : 'text-[#9B51E0]'}`}>
+                                                <p className={`text-sm  font-semibold mt-12 ${chat.idUser === item.member.length ? 'text-right pr-2' : 'text-left'} ${chat.idUser === 1 ? 'text-[#E5A443]' : chat.idUser === 2 ? 'text-[#7C8083]' :  chat.idUser === 3 ? 'text-[#43B78D]' : chat.idUser === 4 ? 'text-[#2F80ED]' : 'text-[#9B51E0]'}`}>
                                                     {chat.name}
                                                 </p>
 
