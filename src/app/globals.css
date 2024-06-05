@@ -31,3 +31,42 @@ body {
     text-wrap: balance;
   }
 }
+
+.quicks {
+  background-color: red;
+  transition: 1s;
+  right: 40;
+  visibility: visible;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+
+.react-datepicker__header {
+  background-color: white !important;
+  color: #2f2f2f !important;
+}
+
+.input_global:focus-visible{
+	outline: none;
+}
+.input_global:active, .input_global:focus{
+	border-radius: 6px;
+	/* border: 1px solid #22356F; */
+	background: var(--netral-wthite, #FFF);
+	/* box-shadow: 1px 2px 2px 0px #00000014 inset; */
+}
+input.react-datepicker-ignore-onclickoutside{
+  width: 75%;
+}
+
