@@ -177,11 +177,11 @@ export default function ModalInbox(
                                                  <Image src={icons.GROUP} width={50} height={50} alt='group' />
                                             </div>
                                             <div className="flex flex-col gap-2 py-2 w-full">
-                                                <span className='text-[#333333] font-bold'>{data.title}</span>
+                                                <span className='text-[#2F80ED] font-bold'>{data.title}</span>
                                                 <div className="flex flex-col gap-1 text-sm">
                                                     <div className="flex flex-row justify-between items-center h-full w-full gap-4">
                                                         <div className="flex flex-col w-full gap-1">
-                                                            <span className='text-[#828282] font-bold'>{data.chats[data.chats.length-1].name}</span>
+                                                            <span className='text-[#4F4F4F] font-bold'>{data.chats[data.chats.length-1].name}</span>
                                                             <span className='text-[#828282]'> {data.chats[data.chats.length-1].message}</span>
                                                         </div>
                                                         <span className=' w-2 h-2 bg-[#EB5757] rounded-full flex justify-center items-center text-white'></span>

@@ -286,12 +286,12 @@ export default function DetailInbox(
                                         <div className='mb-2'>
                                             <div className="flex flex-row items-center justify-center text-center">
                                                 <hr className="w-full border-[#828282]" />
-                                                <p className="text-sm font-semibold w-[550px] text-gray-400">{new Date(chat.date).toLocaleDateString('en-US', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'})}</p>
+                                                <p className="text-sm font-semibold w-[550px] text-[#4F4F4F]">{new Date(chat.date).toLocaleDateString('en-US', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'})}</p>
                                                 <hr className="w-full border-[#828282]" />
                                             </div>
 
                                             <div key={index} className="flex flex-col mb-4 h-[100px]">
-                                                <p className={`text-sm text-gray-400 font-semibold ${chat.idUser === item.member.length ? 'text-right pr-2' : 'text-left'} ${chat.idUser === 1 ? 'text-[#E5A443]' : chat.idUser === 2 ? 'text-[#7C8083]' :  chat.idUser === 3 ? 'text-[#43B78D]' : chat.idUser === 4 ? 'text-[#E9F3FF]' : 'text-[#9B51E0]'}`}>
+                                                <p className={`text-sm font-semibold ${chat.idUser === item.member.length ? 'text-right pr-2' : 'text-left'} ${chat.idUser === 1 ? 'text-[#E5A443]' : chat.idUser === 2 ? 'text-[#7C8083]' :  chat.idUser === 3 ? 'text-[#43B78D]' : chat.idUser === 4 ? 'text-[#E9F3FF]' : 'text-[#9B51E0]'}`}>
                                                     {chat.name}
                                                 </p>
 
@@ -326,7 +326,7 @@ export default function DetailInbox(
                                                             <div className={`flex flex-col w-full  p-2 gap-2 rounded-lg ${chat.idUser === 1 ? 'bg-[#FCEED3]' : chat.idUser === 2 ? 'bg-[#E9F3FF]' :  chat.idUser === 3 ? 'bg-[#D2F2EA]' : chat.idUser === 4 ? 'bg-[#E9F3FF]' : 'bg-[#EEDCFF]'}`}>
                                                                 <p className="text-sm text-[#4F4F4F]">{chat.message}</p>
                                                                 {/* 08.00 */}
-                                                                <p className="text-sm text-gray-400">
+                                                                <p className="text-sm text-[#4F4F4F]">
                                                                     {new Date(chat.date).toLocaleDateString('id-ID', {hour: '2-digit', minute:'2-digit'}).split(' ')[1]}
                                                                 </p>
                                                             </div>
@@ -390,7 +390,7 @@ export default function DetailInbox(
                                         </div>
                                     ) : (
                                         <div key={index} className="flex flex-col mb-4 h-[110px]">
-                                                <p className={`text-sm text-gray-400 font-semibold mt-12 ${chat.idUser === item.member.length ? 'text-right pr-2' : 'text-left'} ${chat.idUser === 1 ? 'text-[#E5A443]' : chat.idUser === 2 ? 'text-[#7C8083]' :  chat.idUser === 3 ? 'text-[#43B78D]' : chat.idUser === 4 ? 'text-[#E9F3FF]' : 'text-[#9B51E0]'}`}>
+                                                <p className={`text-sm  font-semibold mt-12 ${chat.idUser === item.member.length ? 'text-right pr-2' : 'text-left'} ${chat.idUser === 1 ? 'text-[#E5A443]' : chat.idUser === 2 ? 'text-[#7C8083]' :  chat.idUser === 3 ? 'text-[#43B78D]' : chat.idUser === 4 ? 'text-[#E9F3FF]' : 'text-[#9B51E0]'}`}>
                                                     {chat.name}
                                                 </p>
 
@@ -424,7 +424,7 @@ export default function DetailInbox(
                                                             <div className={`flex flex-col w-full  p-2 gap-2 rounded-lg ${chat.idUser === 1 ? 'bg-[#FCEED3]' : chat.idUser === 2 ? 'bg-[#E9F3FF]' :  chat.idUser === 3 ? 'bg-[#D2F2EA]' : chat.idUser === 4 ? 'bg-[#E9F3FF]' : 'bg-[#EEDCFF]'}`}>
                                                                 <p className="text-sm text-[#4F4F4F]">{chat.message}</p>
                                                                 {/* 08.00 */}
-                                                                <p className="text-sm text-gray-400">
+                                                                <p className="text-sm text-[#4F4F4F]">
                                                                     {new Date(chat.date).toLocaleDateString('id-ID', {hour: '2-digit', minute:'2-digit'}).split(' ')[1]}
                                                                 </p>
                                                             </div>
